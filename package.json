@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-fullstack-starter",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "React Redux Fullstack Starter",
+  "description": "sample portfolio",
   "main": "index.js",
   "scripts": {
     "start": "node .",
