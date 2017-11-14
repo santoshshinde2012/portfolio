@@ -1,4 +1,3 @@
-import mongoose from 'mongoose';
 import express from 'express';
 import bodyParser from 'body-parser';
 import path from 'path';
@@ -11,8 +10,6 @@ import createLocation from 'history/lib/createLocation';
 import { makeStore } from 'app/helpers';
 import serverRoutes from 'app/server/routes';
 import App from 'app/components/App';
-
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/appname');
 
 var app = express();
 
